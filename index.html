@@ -8,11 +8,109 @@
     <title>TimeTable</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <section></section>
-      <section></section>
-      <section></section>
+    <header class="page-header"></header>
+    <main class="container">
+      <section class="title">
+        <h1 class="title__sub-header">Расписание занятий</h1>
+        <div class="title__breadcrumbs">
+            <a href="#" class="title__breadcrumbs-item">Главная</a>
+            <a href="#" class="title__breadcrumbs-item">Расписание</a>
+        </div>
+      </section>
+      <section class="navigation">
+        <nav class="navigation__list">
+            <div class="navigation__list-item navigation__list-item-active">
+                <span class="navigation__list-item-text">Группы</span>
+            </div>
+            <div class="navigation__list-item">
+                <span class="navigation__list-item-text">Преподаватели</span>
+            </div>
+            <div class="navigation__list-item">
+                <span class="navigation__list-item-text">Аудитории</span>
+            </div>
+        </nav>
+      </section>
+      <section class="timetable-main">
+        <div class="timetable-main-item timetable-main__item-active">
+            <div class="groups">
+                <div class="groups__item">
+                    <h2 class="groups__item-title">Банковское дело</h2>
+                    <ul class="groups__item-list">
+                        <li class="groups__item-list-item">БО-21-10</li>
+                        <li class="groups__item-list-item">БО-22-9</li>
+                        <li class="groups__item-list-item">БО-24-1</li>
+                    </ul>
+                </div>
+                <div class="groups__item">
+                    <h2 class="groups__item-title">Банковское дело</h2>
+                    <ul class="groups__item-list">
+                        <li class="groups__item-list-item">БО-21-10</li>
+                        <li class="groups__item-list-item">БО-22-9</li>
+                        <li class="groups__item-list-item">БО-24-1</li>
+                    </ul>
+                </div>
+                <div class="groups__item">
+                    <h2 class="groups__item-title">Банковское дело</h2>
+                    <ul class="groups__item-list">
+                        <li class="groups__item-list-item">БО-21-10</li>
+                        <li class="groups__item-list-item">БО-22-9</li>
+                        <li class="groups__item-list-item">БО-24-1</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="timetable-main__item">
+            <div class="teachers">
+                <ul class="teachers__list">
+                    <!-- Добавить src к img -->
+                    <li class="teachers__list-item">
+                        <img class="teachers__list-item-img" src="" alt="">
+                        <span class="teachers__list-item-text">Иванов Иван Иванович</span>
+                    </li>
+                    <li class="teachers__list-item">
+                        <img class="teachers__list-item-img" src="" alt="">
+                        <span class="teachers__list-item-text">Иванов Иван Иванович</span>
+                    </li>
+                    <li class="teachers__list-item">
+                        <img class="teachers__list-item-img" src="" alt="">
+                        <span class="teachers__list-item-text">Иванов Иван Иванович</span>
+                    </li>
+                    <li class="teachers__list-item">
+                        <img class="teachers__list-item-img" src="" alt="">
+                        <span class="teachers__list-item-text">Иванов Иван Иванович</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="timetable-main__item">
+            <div class="classrooms">
+                <div class="classrooms__item">
+                    <h2 class="classrooms__item-title">Главный корпус</h2>
+                    <ul class="classrooms__item-list">
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        <li class="classrooms__item-list-item">301</li>
+                        
+                    </ul>
+                </div>
+                <div class="classrooms__item">
+                    <h2 class="classrooms__item-title">Общежитие</h2>
+                    <ul class="classrooms__item-list">
+                        <li class="classrooms__item-list-item">116</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="items"></section>
     </main>
     <footer></footer>
   </body>
